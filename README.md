@@ -63,29 +63,29 @@ A modern, feature-rich budget tracking application designed specifically for stu
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
-   git clone <your-repo-url>
+     ``` bash
+   git clone <https://github.com/Nidhi-hb/Student-Budget-Tracker->
    cd student-budget-tracker
-   \`\`\`
+    ```
 
 2. **Install dependencies**
-   \`\`\`bash
+    ``` bash
    npm install
    # or
    yarn install
-   \`\`\`
+     ```
 
 3. **Install Python dependencies** (for analytics)
-   \`\`\`bash
+     ```bash
    pip install pandas numpy matplotlib
-   \`\`\`
+     ```
 
 4. **Run the development server**
-   \`\`\`bash
+    ```bash
    npm run dev
    # or
    yarn dev
-   \`\`\`
+    ```
 
 5. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
@@ -148,9 +148,9 @@ A modern, feature-rich budget tracking application designed specifically for stu
 
 Run advanced budget analysis:
 
-\`\`\`bash
+  ```bash
 python scripts/budget_analytics.py
-\`\`\`
+  ```
 
 Features:
 - Spending pattern analysis
@@ -161,7 +161,7 @@ Features:
 
 ## 📁 Project Structure
 
-\`\`\`
+  ```
 ├── app/                          # Next.js App Router
 │   ├── globals.css              # Global styles & gradients
 │   ├── layout.tsx               # Root layout
@@ -178,7 +178,7 @@ Features:
 ├── scripts/                     # Python analytics
 │   └── budget_analytics.py     # Advanced analysis
 └── lib/                         # Utilities
-\`\`\`
+  ```
 
 ## 🌟 Key Highlights
 
@@ -207,6 +207,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - UI components from [shadcn/ui](https://ui.shadcn.com/)
 - Charts powered by [Recharts](https://recharts.org/)
 - Icons from [Lucide React](https://lucide.dev/)
+- link : (https://v0-student-budget-tracker-ruddy.vercel.app/)
 
 ---
 
